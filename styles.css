@@ -6,18 +6,18 @@
 }
 
 :root {
-    --primary: #2563eb;
-    --primary-dark: #1d4ed8;
-    --primary-light: #3b82f6;
-    --secondary: #0f172a;
+    --primary: #0d2847;
+    --primary-dark: #081a32;
+    --primary-light: #1a3d66;
+    --secondary: #0a1628;
     --accent: #f59e0b;
     --success: #10b981;
     --text: #1e293b;
-    --text-light: #64748b;
-    --text-lighter: #94a3b8;
+    --text-light: #475569;
+    --text-lighter: #64748b;
     --bg: #ffffff;
-    --bg-gray: #f8fafc;
-    --bg-dark: #0f172a;
+    --bg-gray: #f1f5f9;
+    --bg-dark: #0a1628;
     --border: #e2e8f0;
     --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
@@ -34,8 +34,9 @@ html {
 body {
     font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
     color: var(--text);
-    line-height: 1.6;
+    line-height: 1.7;
     background: var(--bg);
+    font-size: 18px;
 }
 
 .container {
@@ -49,8 +50,8 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 12px 24px;
-    font-size: 16px;
+    padding: 14px 28px;
+    font-size: 18px;
     font-weight: 600;
     text-decoration: none;
     border-radius: var(--radius);
@@ -102,8 +103,8 @@ body {
 }
 
 .btn-large {
-    padding: 16px 32px;
-    font-size: 18px;
+    padding: 18px 40px;
+    font-size: 20px;
 }
 
 .btn-full {
@@ -137,7 +138,7 @@ body {
 }
 
 .logo {
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 800;
     color: var(--primary);
 }
@@ -151,7 +152,7 @@ body {
     color: var(--text);
     text-decoration: none;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 17px;
     transition: color 0.3s;
 }
 
@@ -194,18 +195,18 @@ body {
     display: inline-block;
     background: var(--primary);
     color: white;
-    padding: 8px 16px;
+    padding: 10px 20px;
     border-radius: 50px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 .hero h1 {
-    font-size: 48px;
+    font-size: 56px;
     font-weight: 800;
     line-height: 1.3;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     color: var(--secondary);
 }
 
@@ -214,10 +215,10 @@ body {
 }
 
 .hero-subtitle {
-    font-size: 20px;
+    font-size: 24px;
     color: var(--text-light);
-    margin-bottom: 30px;
-    line-height: 1.6;
+    margin-bottom: 36px;
+    line-height: 1.7;
 }
 
 .hero-subtitle strong {
@@ -236,13 +237,13 @@ body {
 }
 
 .stat-number {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 800;
     color: var(--primary);
 }
 
 .stat-label {
-    font-size: 14px;
+    font-size: 16px;
     color: var(--text-light);
 }
 
@@ -253,7 +254,7 @@ body {
 }
 
 .hero-note {
-    font-size: 14px;
+    font-size: 16px;
     color: var(--text-light);
 }
 
@@ -290,12 +291,12 @@ body {
 }
 
 .card-label {
-    font-size: 13px;
+    font-size: 15px;
     color: var(--text-light);
 }
 
 .card-value {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 700;
     color: var(--text);
 }
@@ -351,9 +352,9 @@ body {
 
 .section-title {
     text-align: center;
-    font-size: 36px;
+    font-size: 44px;
     font-weight: 800;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     color: var(--secondary);
 }
 
@@ -363,7 +364,7 @@ body {
 
 .section-subtitle {
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     color: var(--text-light);
     margin-bottom: 50px;
 }
@@ -394,16 +395,16 @@ body {
 }
 
 .problem-card h3 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
     color: var(--secondary);
 }
 
 .problem-card p {
-    font-size: 15px;
+    font-size: 17px;
     color: var(--text-light);
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 /* 해결책 섹션 */
@@ -457,13 +458,13 @@ body {
 }
 
 .solution-item h4 {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .solution-item p {
-    font-size: 15px;
+    font-size: 17px;
     color: var(--text-lighter);
 }
 
@@ -501,16 +502,16 @@ body {
 .week-number {
     background: var(--primary);
     color: white;
-    padding: 6px 12px;
+    padding: 8px 14px;
     border-radius: 50px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     margin-right: 16px;
 }
 
 .week-header h3 {
     flex: 1;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     color: var(--secondary);
 }
@@ -539,11 +540,12 @@ body {
 }
 
 .week-content li {
-    padding: 12px 0;
+    padding: 14px 0;
     padding-left: 28px;
     position: relative;
     color: var(--text-light);
     border-bottom: 1px solid var(--border);
+    font-size: 17px;
 }
 
 .week-content li:last-child {
@@ -567,7 +569,7 @@ body {
 }
 
 .curriculum-bonus h3 {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 30px;
 }
 
@@ -585,6 +587,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 12px;
+    font-size: 17px;
 }
 
 .bonus-icon {
@@ -625,22 +628,22 @@ body {
     display: inline-block;
     background: var(--primary);
     color: white;
-    padding: 6px 14px;
+    padding: 8px 16px;
     border-radius: 50px;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
     margin-bottom: 16px;
 }
 
 .instructor-info h3 {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 800;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     color: var(--secondary);
 }
 
 .instructor-title {
-    font-size: 16px;
+    font-size: 18px;
     color: var(--text-light);
     margin-bottom: 24px;
 }
@@ -656,26 +659,26 @@ body {
     display: flex;
     align-items: center;
     gap: 12px;
-    font-size: 15px;
+    font-size: 17px;
     color: var(--text);
 }
 
 .career-icon {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .instructor-quote {
     background: var(--bg-gray);
-    padding: 24px;
+    padding: 28px;
     border-radius: var(--radius-lg);
     border-left: 4px solid var(--primary);
 }
 
 .instructor-quote p {
-    font-size: 16px;
+    font-size: 18px;
     font-style: italic;
     color: var(--text);
-    line-height: 1.7;
+    line-height: 1.8;
 }
 
 /* 수강 후기 섹션 */
@@ -727,16 +730,17 @@ body {
 .reviewer-name {
     display: block;
     font-weight: 700;
+    font-size: 18px;
     color: var(--secondary);
 }
 
 .reviewer-company {
-    font-size: 13px;
+    font-size: 15px;
     color: var(--text-light);
 }
 
 .review-rating {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .review-result {
@@ -750,20 +754,20 @@ body {
 }
 
 .result-label {
-    font-size: 13px;
+    font-size: 15px;
     color: var(--text-light);
 }
 
 .result-value {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
     color: var(--primary);
 }
 
 .review-text {
-    font-size: 15px;
+    font-size: 17px;
     color: var(--text);
-    line-height: 1.7;
+    line-height: 1.8;
 }
 
 .reviews-summary {
@@ -778,13 +782,13 @@ body {
 
 .summary-number {
     display: block;
-    font-size: 36px;
+    font-size: 44px;
     font-weight: 800;
     color: var(--primary);
 }
 
 .summary-label {
-    font-size: 14px;
+    font-size: 16px;
     color: var(--text-light);
 }
 
@@ -829,9 +833,9 @@ body {
     display: inline-block;
     background: var(--bg-gray);
     color: var(--text-light);
-    padding: 6px 16px;
+    padding: 8px 18px;
     border-radius: 50px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     margin-bottom: 16px;
 }
@@ -842,7 +846,7 @@ body {
 }
 
 .pricing-card h3 {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 700;
     margin-bottom: 20px;
     color: var(--secondary);
@@ -854,14 +858,14 @@ body {
 
 .price-original {
     display: block;
-    font-size: 16px;
+    font-size: 18px;
     color: var(--text-lighter);
     text-decoration: line-through;
     margin-bottom: 4px;
 }
 
 .price-current {
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 800;
     color: var(--primary);
 }
@@ -873,8 +877,8 @@ body {
 }
 
 .pricing-features li {
-    padding: 12px 0;
-    font-size: 15px;
+    padding: 14px 0;
+    font-size: 17px;
     border-bottom: 1px solid var(--border);
 }
 
@@ -907,14 +911,14 @@ body {
 }
 
 .guarantee-content h4 {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     color: var(--secondary);
 }
 
 .guarantee-content p {
-    font-size: 15px;
+    font-size: 17px;
     color: var(--text-light);
 }
 
@@ -944,6 +948,7 @@ body {
     padding: 24px;
     cursor: pointer;
     font-weight: 600;
+    font-size: 18px;
     color: var(--secondary);
     transition: background 0.3s;
 }
@@ -973,7 +978,8 @@ body {
 
 .faq-answer p {
     color: var(--text-light);
-    line-height: 1.7;
+    line-height: 1.8;
+    font-size: 17px;
 }
 
 /* 최종 CTA 섹션 */
@@ -985,9 +991,9 @@ body {
 }
 
 .final-cta h2 {
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 800;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     line-height: 1.3;
 }
 
@@ -996,7 +1002,7 @@ body {
 }
 
 .final-cta p {
-    font-size: 18px;
+    font-size: 22px;
     opacity: 0.9;
     margin-bottom: 40px;
 }
@@ -1012,7 +1018,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
-    font-size: 14px;
+    font-size: 16px;
     opacity: 0.9;
 }
 
@@ -1032,15 +1038,15 @@ body {
 }
 
 .footer-logo {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     color: white;
     margin-bottom: 16px;
 }
 
 .footer-info p {
-    font-size: 14px;
-    margin-bottom: 6px;
+    font-size: 15px;
+    margin-bottom: 8px;
 }
 
 .footer-links {
@@ -1051,7 +1057,7 @@ body {
 .footer-links a {
     color: var(--text-lighter);
     text-decoration: none;
-    font-size: 14px;
+    font-size: 15px;
     transition: color 0.3s;
 }
 
@@ -1061,7 +1067,7 @@ body {
 
 .footer-copyright {
     text-align: center;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 /* 반응형 디자인 */
@@ -1138,11 +1144,11 @@ body {
     }
 
     .hero h1 {
-        font-size: 32px;
+        font-size: 38px;
     }
 
     .hero-subtitle {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .hero-stats {
@@ -1151,7 +1157,7 @@ body {
     }
 
     .stat-number {
-        font-size: 24px;
+        font-size: 32px;
     }
 
     .hero-cta {
@@ -1159,7 +1165,7 @@ body {
     }
 
     .section-title {
-        font-size: 28px;
+        font-size: 32px;
     }
 
     .problems-grid {
@@ -1180,7 +1186,7 @@ body {
     }
 
     .final-cta h2 {
-        font-size: 28px;
+        font-size: 34px;
     }
 
     .cta-buttons {
